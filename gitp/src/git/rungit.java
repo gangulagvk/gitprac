@@ -11,5 +11,8 @@ public class rungit {
 		System.out.println(t);
 
 	}
+	void add() {
+		
+	}
 
 }
