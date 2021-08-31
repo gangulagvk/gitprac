@@ -18,6 +18,7 @@ public class redbus {
 	String bpath="http://apps.qaplanet.in/hrm/login.php";
   @Test
   public void f() {
+	  
 	    bo.get(bpath);
 	    bo.findElement(By.xpath("//tbody/tr[2]/td[2]/input[1]")).sendKeys("qaplanet1");
 	    bo.findElement(By.xpath("//tbody/tr[3]/td[2]/input[1]")).sendKeys("lab1");
@@ -28,6 +29,7 @@ public class redbus {
   @AfterMethod
   public void aftermethod() {
 	    bo.close();
+	  
 	  
 }
 }
